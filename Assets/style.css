@@ -1,0 +1,81 @@
+body{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+form {
+    margin:0 auto !important;
+    text-align: left;
+    width: 800px;}
+#container {
+    text-align: left;
+    width: 800px;
+}
+a, label, b {
+    color: #6666CC;
+}
+input, textarea{
+    border: 1px solid #330066 !important;
+    background:#0000 !important;
+    box-shadow:none !important;
+    color:#fff !important;
+    outline:0px !important;
+    width:100%
+}
+table{
+    width:100%;
+
+}
+form td{
+    border: 1px solid #330066 !important;
+    color:#aaa !important
+}
+td span {
+    color:#ddd !important
+}
+td span:nth-of-type(odd){
+    background-color:#306 !important;
+    display:block;
+    padding:3px;
+    margin-bottom:9px
+}
+
+
+::-webkit-scrollbar {
+    width: 11px;
+    height: 11px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #7e00ff;
+    border: 1px solid #500297;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #5802c8;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #000000;
+}
+::-webkit-scrollbar-track {
+    background: #000000;
+    border: 0px none #ffffff;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #000000;
+}
+::-webkit-scrollbar-track:active {
+    background: #333333;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+#caspioform + div, body [id^=cbe]{
+    display:none !important;
+    max-height:0px;
+    overflow:hidden
+}
