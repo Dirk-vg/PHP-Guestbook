@@ -15,7 +15,7 @@
 It is time for our first php Consolidation challenge!
 Let's remember the internet of the 1990, and create a classic widget that every site in that decade had: a guestbook. 
 
-![guestbook.jpg](guestbook.jpg)
+
 
 Any visitor on te page can leave a message on your page that are then saved and showed (last message on top) for everybody who visits the page.
 
